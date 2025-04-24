@@ -1,4 +1,10 @@
-# EaseCommerce API Automation Tests (Playwright)
+# QA Automation Tasks: EaseCommerce
+
+This repository contains two automated test files:
+
+1. `api.test.ts`: API-based test cases.
+
+api.test.ts
 
 This project contains Playwright API tests for:
 
@@ -25,3 +31,21 @@ npm install
 
 # 3. Install Playwright (optional)
 npx playwright install
+
+```
+Running Statement:
+```
+npx playwright test api.test.ts
+```
+
+2. `UI.test.js`: End-to-end UI workflow for task creation using TestCafe.
+
+## Prerequisites
+```
+npm install testcafe --save-dev
+```
+Running Statement:
+```
+npx testcafe chrome UI.test.js
+```
+
