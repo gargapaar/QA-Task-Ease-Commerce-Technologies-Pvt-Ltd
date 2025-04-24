@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "testcafe": "^3.7.2"
+  }
+}
